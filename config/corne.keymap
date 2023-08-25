@@ -24,7 +24,7 @@
    &none &kp Q        &kp W &kp E        &kp R     &kp T              &kp Y         &kp U        &kp I         &kp O   &kp P                &kp none
    &none &mt LSHIFT A &kp S &kp D        &kp F     &kp G              &kp H         &kp J        &kp K         &kp L   &mt RSHIFT SEMI      &kp none
    &none &mt LCTRL  Z &kp X &kp C        &kp V     &kp B              &kp N         &kp M        &kp COMMA     &kp DOT &mt RCTRL  FSLH      &kp none
-                            &mt LGUI TAB &kp LALT  &mt LOWER SPACE    &mt RAISE RET &mt RALT DEL &mt FN BKSP
+                            &mt LGUI TAB &kp LALT  &mt LOWER SPACE    &mt RAISE RET &mt RALT DEL &kp BKSP
                         >;
                 };
                 lower_layer {
@@ -37,7 +37,7 @@
    &none  &kp N1         &kp N2       &kp N3       &kp N4       &kp N5          &kp N6   &kp N7   &kp N8   &kp N9    &kp N0     &none
    &none  &mt LSHIFT ESC &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3    &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp RSHIFT &none
    &none  &kp LCTRL      &bt BT_SEL 4 &bt BT_CLR   &trans       &trans          &trans   &trans   &trans   &trans    &kp RCTRL  &none
-                                      &kp LGUI     &kp LALT     &kp SPACE       &kp RET  &kp RALT &kp FN
+                                      &kp LGUI     &kp LALT     &kp SPACE       &kp RET  &kp RALT &kp BKSP
                         >;
                 };
 
@@ -51,7 +51,7 @@
    &none &kp EXCL         &kp AT  &kp HASH &kp DLLR &kp PRCNT      &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR        &none
    &none &mt LSHIFT GRAVE &kp DQT &trans   &trans   &trans         &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &mt RSHIFT BSLH &none
    &none &mt LCTRL  TILDE &kp SQT &trans   &trans   &trans         &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &mt RCTRL  PIPE &none
-                                  &kp LGUI &kp LALT &kp SPACE      &kp RET   &kp RALT  &kp FN
+                                  &kp LGUI &kp LALT &kp SPACE      &kp RET   &kp RALT  &kp BKSP
                         >;
                 };
         };
