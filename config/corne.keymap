@@ -25,9 +25,9 @@
 // |      |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  |      |
 //                    | GUI | ALT | SPC |   | ENT | ALT  | FN |
                         bindings = <
-   &none &kp Q        &kp W &kp E        &kp R     &kp T              &kp Y         &kp U        &kp I         &kp O   &kp P                &kp none
-   &none &mt LSHIFT A &kp S &kp D        &kp F     &kp G              &kp H         &kp J        &kp K         &kp L   &mt RSHIFT SEMI      &kp none
-   &none &mt LCTRL  Z &kp X &kp C        &kp V     &kp B              &kp N         &kp M        &kp COMMA     &kp DOT &mt RCTRL  FSLH      &kp none
+   &none &kp Q        &kp W &kp E        &kp R     &kp T              &kp Y         &kp U        &kp I         &kp O   &kp P                &none
+   &none &mt LSHIFT A &kp S &kp D        &kp F     &kp G              &kp H         &kp J        &kp K         &kp L   &mt RSHIFT SEMI      &none
+   &none &mt LCTRL  Z &kp X &kp C        &kp V     &kp B              &kp N         &kp M        &kp COMMA     &kp DOT &mt RCTRL  FSLH      &none
                             &mt LGUI TAB &kp LALT  &lt LOWER SPACE    &lt RAISE RET &mt RALT DEL &kp BSPC
                         >;
                 };
